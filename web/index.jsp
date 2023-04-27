@@ -17,7 +17,7 @@
      
   <div class="row">
       <div class="col-8">
-          <h1>Bienvenido a MadStore</h1>
+          <h1>Bienvenidos a FBMW</h1>
           <p>
       Encuentra todo lo que buscas en un solo lugar. Bienvendio a GLAUDEM MadStore, lideres en moda. Podrás encontrar una amplia variedad de productos y marcas importadas.
       </p>
