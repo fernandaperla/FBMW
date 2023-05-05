@@ -86,9 +86,20 @@ footer {
 .imageedit
 {
     position: center;
-    
 }
 .text
 {
     color:red;
+}
+.navbar
+{
+    background-color: #f5c6cb;
+    color: white;
+    text-decoration: none;
+    border:none;
+}
+.nav-link, navbar-brand
+{
+    color:white;
+    text-decoration: none;
 }

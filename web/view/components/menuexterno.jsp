@@ -4,8 +4,8 @@
     Author     : JonaC
 --%>
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <a class="navbar-brand" href="#">MadStore</a>
+<nav class="navbar navbar-expand-sm navbar">
+  <a class="navbar-brand" href="#">FBMW</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

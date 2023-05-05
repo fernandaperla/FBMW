@@ -17,5 +17,5 @@
 
           <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
-        <title>MadStore</title>
+        <title>FBMW</title>
     </head>
