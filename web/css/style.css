@@ -26,7 +26,10 @@ html {
 
 #formlogin
 {
-    margin-top: -850px;
+    margin-top: -650px;
+    background-color:black;
+    margin-left: -850px;
+    height: 200px;
 }
 .nologin
 {
@@ -40,7 +43,7 @@ html {
 {
     background-color: gray;
     color:white;
-    margin-bottom: 4px;
+    margin-bottom: 3px;
 }
 .managerstocklabels
 {
@@ -91,9 +94,9 @@ footer {
 {
     color:red;
 }
-.navbar
+.navbar, nav
 {
-    background-color: #f5c6cb;
+    background-color: #0C134F;
     color: white;
     text-decoration: none;
     border:none;
@@ -102,4 +105,8 @@ footer {
 {
     color:white;
     text-decoration: none;
+}
+.titulo2
+{
+    color: white;
 }

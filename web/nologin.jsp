@@ -10,19 +10,21 @@
     
 <jsp:include page="view/components/header.jsp"/>    
 
-    <body>
-        <jsp:include page="view/components/menuexterno.jsp"/>  
-        <img src="assets/img/banner2.jpg" class="img-fluid" width="100%" alt="Responsive image">
+    <body style="background-color: red; text-align: center;">
+        <div style="margin-left: 20rem; text-align: left;">
+        <img src="assets/img/advertencia.png" style="  width: 300px;
+  height: 300px;">
+       </div>
         <div class="container">
      
   <div class="row">
-      <div class="col-8">
+      <div class="col-8" >
    <div class="card nologin">
-  <h5 class="card-header">MadStore</h5>
+  <h5 class="card-header" style="font-size: 3rem;">!!ADVERTENCIA!!</h5>
   <div class="card-body">
     <h5 class="card-title">!LO SENTIMOS, PERO LOS DATOS INGRESADOS SON INCORRECTOS!</h5>
-    <p class="card-text">Por favor, revise sus datos de inicio de sesion. Posiblemente haya ingresado su email o password de forma incorrecta. Vuelva a intentar...</p>
-    <a href="login?accion=salir" class="btn btn-primary">Regresar al inicio</a>
+    <p class="card-text">Por cuestiones de presupuesto, tiempo y conocimiento necesario, por ahora no es posible agregar la funcion de corregir los datos ingresados sin enviarlo a otra ventana. Le expresamos nuestras sinceras disculpas de parte del grupo FBMW. Por favor presione el boton volver para ingresar nuevamente los datos y asegurese de verificar que tanto el correo como la contraseña sean correctos....</p>
+    <a href="login?accion=salir" class="btn btn-primary">VOLVER</a>
   </div>
 </div>
           

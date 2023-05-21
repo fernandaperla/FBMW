@@ -7,22 +7,22 @@
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 
-  <a class="navbar-brand" href="usercontrol?accion=home">GLAUDEM</a>
+  <a class="navbar-brand" href="usercontrol?accion=home"><img src="assets/img/g661.png"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent"  style="border: white 2.5px solid;">
     <ul class="navbar-nav mr-auto">
         <li>
        
         </li>
       <li class="nav-item active">
-        <a class="nav-link" href="usercontrol?accion=home">Inicio <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="usercontrol?accion=home"  style="color:white;">Inicio <span class="sr-only"  style="color:white;">(current)</span></a>
       </li>
      
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  style="color:white;">
           Productos
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -33,7 +33,7 @@
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"   style="color:white;">
           Usuarios
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -44,7 +44,7 @@
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a   style="color:white;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Ventas
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -55,13 +55,13 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Comprar</a>
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"   style="color:white;">Comprar</a>
       </li>
        <li class="nav-item">
-        <a class="nav-link" href="login?accion=salir" tabindex="-1" aria-disabled="true">Cerrar Sesion</a>
+        <a class="nav-link" href="login?accion=salir" tabindex="-1" aria-disabled="true"   style="color:white;">Cerrar Sesion</a>
       </li>
     </ul>
-      <span class="navbar-text">
+      <span class="navbar-text" style="margin-right: 2rem;"   style="color:white;">
       ${usuario}
     </span>
     <form class="form-inline my-2 my-lg-0" action="products">

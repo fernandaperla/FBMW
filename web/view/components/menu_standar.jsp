@@ -4,31 +4,31 @@
     Author     : JonaC
 --%>
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark text-white">
+<nav class="navbar navbar-expand-sm navbar text-white">
 
-  <a class="navbar-brand" href="usercontrol?accion=home">SOFI STORE</a>
+  <a class="navbar-brand" href="usercontrol?accion=home"><img src="assets/img/g661.png"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent" style="border: white 2.5px solid;">
     <ul class="navbar-nav mr-auto">
         <li>
        
         </li>
       <li class="nav-item active">
-        <a class="nav-link" href="usercontrol?accion=home">Inicio <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="usercontrol?accion=home" style="color: white;">Inicio<span class="sr-only">(current)</span></a>
       </li>
     
       <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Comprar</a>
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true" style="color: white;">Comprar</a>
       </li>
        <li class="nav-item">
-        <a class="nav-link" href="login?accion=salir" tabindex="-1" aria-disabled="true">Cerrar Sesion</a>
+           <a class="nav-link" href="login?accion=salir" tabindex="-1" aria-disabled="true" style="color: white;">Cerrar Sesion</a>
       </li>
     </ul>
       <img src="${foto}" class="thumbnail rounded-circle" alt="..." width="40px" height="40px">&nbsp
-      <span class="navbar-text text-white">
+      <span class="navbar-text text-white" style="margin-right: 2rem;">
       ${usuario}
     </span>
     &nbsp

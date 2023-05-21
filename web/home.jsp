@@ -12,14 +12,14 @@
 <!DOCTYPE html>
 <html>
     <jsp:include page="view/components/header.jsp"/>
-    <body>
+    <body style="background-color: black; color: white;">
         <jsp:include page="view/components/menu_admin.jsp"/>
         <div class="container">
             <div class="col-12">
                 <h1>Lista de usuarios</h1>
                 <table class="table table-hover">
                     <thead>
-                        <tr>
+                        <tr style="color:white;">
                             <th scope="col">Id</th>
                             <th scope="col">Nombres</th>
                             <th scope="col">Apellidos</th>
@@ -41,7 +41,7 @@
                          
 
                         %>
-                        <tr>
+                        <tr style="color:white;">
                             <td><%= usermodel.getId_usuario() %></td>
                             <td><%= usermodel.getNombres() %></td>
                             <td><%= usermodel.getApellidos() %></td>

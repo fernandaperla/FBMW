@@ -8,9 +8,12 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
  <!-- Copyright -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  <div class="footer-copyright bg-dark text-center py-3">
+
+<!--degradado y otros XD-->
+<div class="footer-copyright bg-dark text-center py-3" style="margin-top: 2.5rem; background: rgb(73,73,131);
+background: linear-gradient(90deg, rgba(73,73,131,0) 0%, rgba(0,0,0,1) 0%, rgba(106,105,189,1) 100%, rgba(106,105,189,0) 100%);">
       
-    <span class="text-white-50 bg-dark">© 2023 Todos los derechos reservados. Copyright:</span>
-    <a href="https://mdbootstrap.com/">Jonathan Castillo</a>
+    <span class="text-white-50 bg-dark"><b>© 2023 Todos los derechos reservados. Copyright:</b></span>
+    <a href="https://mdbootstrap.com/" style="color:white; font-family:Auto Mode;"><b>FBMW</b></a>
   </div>
   <!-- Copyright -->

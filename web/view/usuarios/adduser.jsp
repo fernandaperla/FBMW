@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html>
          <jsp:include page="../components/header.jsp"/>  
-    <body>
+        <body style="background-color: black;">
          <jsp:include page="../components/menu_admin.jsp"/>  
        
         <div class="container">

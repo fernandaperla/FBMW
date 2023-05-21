@@ -5,22 +5,22 @@
 --%>
 
 <nav class="navbar navbar-expand-sm navbar">
-  <a class="navbar-brand" href="#">FBMW</a>
+  <a class="navbar-brand" href="#"><img src="assets/img/g661.png"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent" style="border: white 2.5px solid;">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#" style="color:white; font-size: 20px"><b>Inicio</b> <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Ubicacion</a>
+        <a class="nav-link" href="#" style="color:white; font-size: 20px">Ubicacion</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contactanos</a>
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true" style="color:white; font-size: 20px">Contactanos</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">

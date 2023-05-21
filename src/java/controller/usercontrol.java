@@ -5,14 +5,11 @@
  */
 package controller;
 
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.PrintWriter;
-import javax.servlet.RequestDispatcher;
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import model.publicacion;
 import model.usuario;
 import modelDAO.publicacionDAO;
@@ -97,7 +94,7 @@ public class usercontrol extends HttpServlet {
             case "edit": 
             {
                 request.setAttribute("id", request.getParameter("id"));
-                RequestDispatcher vista = request.getRequestDispatcher("view/usuarios/edituser.jsp");
+                RequestDispatcher vista = (RequestDispatcher) request.getRequestDispatcher("view/usuarios/edituser.jsp");
                 vista.forward(request, response);
                 break;
             
@@ -107,7 +104,7 @@ public class usercontrol extends HttpServlet {
                 id=Integer.parseInt(request.getParameter("id"));
                 user.setId_usuario(id);
                 dao.delete(id);
-                RequestDispatcher vista = request.getRequestDispatcher("home.jsp");
+                RequestDispatcher vista = (RequestDispatcher) request.getRequestDispatcher("home.jsp");
                 vista.forward(request, response);
                 break;
             
@@ -131,14 +128,14 @@ public class usercontrol extends HttpServlet {
                 user.setTipo(Integer.parseInt(tipo));
                 user.setFoto(foto);
                 dao.edit(user);
-                RequestDispatcher vista = request.getRequestDispatcher("home.jsp");
+                RequestDispatcher vista = (RequestDispatcher) request.getRequestDispatcher("home.jsp");
                 vista.forward(request, response);
                 break;
             
             }
             case "addform":
                 {
-                    RequestDispatcher vista = request.getRequestDispatcher("view/usuarios/adduser.jsp");
+                    RequestDispatcher vista = (RequestDispatcher) request.getRequestDispatcher("view/usuarios/adduser.jsp");
                     vista.forward(request, response);
                     //request.getRequestDispatcher("view/master/view_users.jsp").forward(request, response);
                     break;
@@ -161,7 +158,7 @@ public class usercontrol extends HttpServlet {
                     user.setTipo(Integer.parseInt(tipo));
                     user.setFoto(foto);
                     dao.add(user);
-                    RequestDispatcher vista = request.getRequestDispatcher("home.jsp");
+                    RequestDispatcher vista = (RequestDispatcher) request.getRequestDispatcher("home.jsp");
                     vista.forward(request, response);
                     break;
             
@@ -193,5 +190,15 @@ public class usercontrol extends HttpServlet {
     public String getServletInfo() {
         return "Short description";
     }// </editor-fold>
+
+    private static class RequestDispatcher {
+
+        public RequestDispatcher() {
+        }
+
+        private void forward(HttpServletRequest request, HttpServletResponse response) {
+            throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        }
+    }
 
 }

@@ -10,32 +10,33 @@
     
 <jsp:include page="view/components/header.jsp"/>    
 
-    <body>
+    <body  style="background-color: black">
         <jsp:include page="view/components/menuexterno.jsp"/>
-        <img src="assets/img/fondo 3.jpg" class="img-fluid" width="100%" alt="Responsive image">
+          <h1  style="color: black; font-family:Auto Mode; text-align: center; background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%, rgba(0,212,255,0) 100%);">Bienvenidos</h1>
         <div class="container">
-     
+
   <div class="row">
       <div class="col-8">
-          <h1>Bienvenidos a FBMW</h1>
+          <img src="assets/img/image339.png" style="margin-top: 5rem;">
           <p>
         
       </p>
       </div>
     <div class="col-4" id="formlogin">
-        <h1>Iniciar Sesion</h1>
+        <h1 class="titulo2"  style="color:white; margin-top: 5rem; font-family:Auto Mode; font-size: 25px">Iniciar Sesion</h1>
         <form action="login" method="POST">
   <div class="form-group">
-    <label for="email">Email</label>
+    <label for="email"  style="color:whitesmoke">Email</label>
     <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" required>
     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
   <div class="form-group">
-    <label for="password">Password</label>
+    <label for="password"  style="color:whitesmoke">Password</label>
     <input type="password" class="form-control" name="pass" id="pass">
   </div>
  
-   <input name="accion" value="Aceptar" type="submit" id="accion" class="btn btn-danger btn-block" required>
+            <input name="accion" value="Aceptar" type="submit" id="accion" class="btn btn-danger btn-block" style="color:white; background-color: #17a2b8; border-color:#17a2b8;" required>
   <button type="submit" class="btn btn-primary btn-block">Registrarme</button>
 </form>
     </div>

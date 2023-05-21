@@ -12,7 +12,7 @@
 <!DOCTYPE html>
 <html>
  <jsp:include page="view/components/header.jsp"/>
-    <body>
+    <body style="background-color: black">
         <jsp:include page="view/components/menu_standar.jsp"/>
         <br>
         <div class="row">
@@ -30,22 +30,22 @@
                         %>
         <div class="col-4">
                         
-        <div class="card">
-            <div class="card-header">
-             <%= publimodel.getTitulo()%>
+        <div class="card" style="background-color: black; border-color: white;">
+            <div class="card-header" style="border-color: white; color: white; text-align: center;">
+
              <%if(publimodel.getEstado()==1){%>  
                    <span class="badge bg-warning text-dark">Disponible</span>
                    <%}%>
                    
                    <%if(publimodel.getEstado()==0){%>
-                    <span class="badge bg-danger text-white">Agotado</span>
+                   <span class="badge bg-danger text-white">Agotado</span>
                    <%}%>
              </div>
               <div class="card-body">
-               <h5 class="card-title"><%= publimodel.getTitulo()%>
+               <h5 class="card-title" style="color:white; text-align: center; font-size: 15px; font-family:Auto Mode;"><%= publimodel.getTitulo()%>
                </h5>
                <img src="<%= publimodel.getImagen()%>" class="img-thumbnail" alt="...">
-               <p class="card-text"style="font-size: 10pt;"><span><%= publimodel.getDescripcion()%></p>
+               <p class="card-text"style="font-size: 10pt;"><span style="color:white;"><%= publimodel.getDescripcion()%></p>
                <p class="card-text"><h5 class="badge rounded-pill bg-dark text-white card-text" style="padding: 8px; font-size: 10pt;"><%= publimodel.getContenido()%></h5></p>
                <a href="#" class="btn btn-primary">Mas detalles</a>
                 <a href="#" class="btn btn-success">Comprar</a>
